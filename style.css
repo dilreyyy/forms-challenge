@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(240, 252, 252);
+    font-family: 'Roboto','sans-serif';
+    color: rgb(53, 47, 47);
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    text-align: center;
+}
+
+#form-card{
+    width: 30rem;
+    background-color: rgb(247, 250, 253);
+    border: 1px;
+    margin: 0 auto;
+    padding: 1rem 0.8rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 0.4rem 0;
+}
+
+input.txt-input{
+    height: 1.5rem;
+}
+
+input.txt-input:focus,
+textarea:focus{
+    background-color: rgb(233, 231, 231);
+}
+
+textarea{
+    resize: none;
+    font: inherit;
+}
+
+select{
+    padding: 0.5rem;
+}
+
+#how-to-contact h2{
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+#radio-grp{
+    display: flex;
+    flex-direction: column;
+}
+
+#terms{
+    margin-top: 1rem;
+}
+
+#btn-group{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: right;
+}
+
+#btn-clear, #btn-submit{
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+    cursor: pointer;
+    /* background-color: rgb(244, 247, 247); */
+    /* border-radius: 3px; */
+}
+
+#btn-submit{
+    background-color: rgb(58, 64, 80);
+    color: white;
+}
+
+

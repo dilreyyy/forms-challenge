@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <form action="/" method="GET">
+            <section id="form-card">
+                <h2>How can we help you?</h2>
+                <ul>
+                    <li>
+                        <label for="user-name">Your Name</label>
+                        <input class="txt-input" type="text" name="user-name" id="user-name" required>
+                    </li>
+                    <li>
+                        <label for="user-email">Your E-Mail Address</label>
+                        <input class="txt-input" type="email" name="user-email" id="user-email" required>
+                    </li>
+                    <li>
+                        <label for="user-phone">Your Phone Number</label>
+                        <input class="txt-input" type="text" name="user-phone" id="user-phone" required>
+                    </li>
+                    <li>
+                        <label for="user-message">Your Message</label>
+                        <textarea name="user-message" id="user-message" rows="10" required></textarea>
+                    </li>
+                    <li>
+                        <label for="find-us">How did you find us?</label>
+                        <select name="find-us" id="find-us" required>
+                            <option>Web Search</option>
+                            <option>Ad</option>
+                            <option>Colleagues</option>
+                        </select>
+                    </li>
+                </ul>
+                <section id="how-to-contact">
+                    <h2>How should we reply?</h2>
+                    <div id="radio-grp">
+                        <div>
+                            <input type="radio" name="how-reply" id="via-call" value="call" required>
+                            <label for="via-call">Call me</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="how-reply" id="via-email" value="email" required>
+                            <label for="via-email">Send me an email</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="how-reply" id="via-null" value="null" required>
+                            <label for="via-null">Don't reply</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="terms" id="terms" required>
+                            <label for="terms">Accept Terms</label>
+                        </div>
+                    </div>
+                    <div id="btn-group">
+                        <button name="btn-clear" id="btn-clear" type="reset">Clear</button>
+                        <button name="btn-sbumit" id="btn-submit">Submit</button>
+                    </div>
+                </section>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
